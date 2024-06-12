@@ -3,7 +3,7 @@ import logo from "../assets/imgs/logo.png";
 import logo2 from "../assets/imgs/logo2.svg";
 import arrowright from "../assets/imgs/arrowright.png";
 import bypassfeat from "../assets/imgs/bypassfeat.png";
-import bypasssoln from "../assets/imgs/bypasssoln.svg";
+import bypasssoln from "../assets/imgs/bypasssoln.png";
 import check1 from "../assets/imgs/check1.png";
 import check2 from "../assets/imgs/check2.png";
 import checkcircleicon from "../assets/imgs/checkcircleicon.png";

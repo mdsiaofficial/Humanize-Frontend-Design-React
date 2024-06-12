@@ -9,8 +9,16 @@ const AiDetection = () => {
         </div>
         <div className="mt-9 w-full max-w-[1090px] max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-            
-            <div className="flex flex-col px-14 py-8 text-lg font-medium leading-7 shadow-2xl backdrop-blur-[53.48258590698242px] bg-stone-300 bg-opacity-0 max-w-[430px] rounded-[59.9px]">
+
+            {/* box img */}
+            <img
+              loading="lazy"
+              src={checkforai}
+              className="self-center max-w-full"
+            />
+
+            {/* box */}
+            {/* <div className="flex flex-col px-14 py-8 text-lg font-medium leading-7 shadow-2xl backdrop-blur-[53.48258590698242px] bg-stone-300 bg-opacity-0 max-w-[430px] rounded-[59.9px]">
               <img
                 loading="lazy"
                 src={checkai}
@@ -23,7 +31,7 @@ const AiDetection = () => {
                 flowers were ones she'd 'borrowed' from her neighbour's garden. No one
                 had noticed. Besides, she thought, flowers are
               </div>
-            </div>
+            </div> */}
             {/* box end */}
 
             <div className="flex flex-col ml-5 w-[54%] max-md:ml-0 max-md:w-full">
