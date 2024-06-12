@@ -28,16 +28,8 @@ export default {
 
     extend: {
       colors: {
-        primary: "#F35F3B",
-        header: "#3b60c9",
-        headerHover: "#5b80e6",
-        footer: "#333437",
-        count: "#161F37",
-        responsibility: "#ECF1F5",
-        textWhite: "E7E7E7",
-        scroll: "#334caf",
-        pText: "#223f6f",
-        profile: "#f0f2f5",
+        bgcolor: "#0F172A",
+        boxbg: "#1A2230",
       },
       fontFamily: {
         custom: ["Inria Sans"],

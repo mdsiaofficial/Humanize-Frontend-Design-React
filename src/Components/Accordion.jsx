@@ -7,7 +7,7 @@ const Accordion = () => {
         <div className="flex-1">Is it accessible</div>
         <img
           loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/efd475aed0739ae64ef85401fb05aaae92b6a14dc3f68f267c6f9b2d7920581b?apiKey=2c09a9944a1f469fa134684c1a2a6ae3&"
+          src=""
           className="shrink-0 my-auto w-4 aspect-square"
         />
       </div>
@@ -15,7 +15,7 @@ const Accordion = () => {
         <div className="flex-1">is it styled</div>
         <img
           loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/efd475aed0739ae64ef85401fb05aaae92b6a14dc3f68f267c6f9b2d7920581b?apiKey=2c09a9944a1f469fa134684c1a2a6ae3&"
+          src=""
           className="shrink-0 my-auto w-4 aspect-square"
         />
       </div>
@@ -24,7 +24,7 @@ const Accordion = () => {
           <div className="flex-1">Is it anymated</div>
           <img
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/0cff19dcbe3d5dc0bac9399300cae5d26cae85853128e96c62f7df7e4e740542?apiKey=2c09a9944a1f469fa134684c1a2a6ae3&"
+            src=""
             className="shrink-0 my-auto w-4 aspect-square"
           />
         </div>

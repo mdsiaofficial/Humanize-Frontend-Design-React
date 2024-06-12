@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+  --bgcolor: #0F172A;
+  --boxbg: #1A2230;
+}
+
+body{
+  background-color: var(--bgcolor);
+}
