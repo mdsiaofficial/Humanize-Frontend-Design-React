@@ -147,8 +147,12 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+
       {/* Pro Features */}
       <ProFeatures />
+
+      
       {/* AI Detection */}
       <div className="flex flex-col items-center self-stretch px-16 mt-12 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
         <div className="mt-40 text-4xl font-medium tracking-tight leading-10 text-center text-slate-50 w-[650px] max-md:mt-10 max-md:max-w-full">

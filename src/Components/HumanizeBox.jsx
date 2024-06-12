@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { ar1, logo, logo2, arrowright, bypassfeat, bypasssoln, check1, check2, checkcircleicon, checkforai, content, ellipse, flag, framein, frameout, gram1, howitworks, msg, path, plus, rectangle, score, spark1, stars5, upload, vector, web, write1 } from '../Global/Imports.jsx';
 const HumanizeBox = () => {
   return (
     <div>
@@ -14,7 +14,7 @@ const HumanizeBox = () => {
             <div className="flex gap-1 px-3.5 py-1.5 whitespace-nowrap border border-solid bg-slate-700 border-slate-600 rounded-[150px]">
               <img
                 loading="lazy"
-                src=""
+                src={gram1}
                 className="shrink-0 my-auto w-4 aspect-square"
               />
               <div>Standard</div>
@@ -22,7 +22,7 @@ const HumanizeBox = () => {
             <div className="flex gap-1 px-3.5 py-1.5 whitespace-nowrap bg-slate-900 rounded-[50px]">
               <img
                 loading="lazy"
-                src=""
+                src={framein}
                 className="shrink-0 self-start w-6 aspect-square"
               />
               <div>Shorten</div>
@@ -30,7 +30,7 @@ const HumanizeBox = () => {
             <div className="flex gap-1 px-3.5 py-1.5 whitespace-nowrap bg-slate-900 rounded-[50px]">
               <img
                 loading="lazy"
-                src=""
+                src={frameout}
                 className="shrink-0 self-start w-6 aspect-square"
               />
               <div>Expand</div>
@@ -38,7 +38,7 @@ const HumanizeBox = () => {
             <div className="flex gap-1 px-3.5 py-1.5 whitespace-nowrap bg-slate-900 rounded-[50px]">
               <img
                 loading="lazy"
-                src=""
+                src={ar1}
                 className="shrink-0 my-auto aspect-square w-[18px]"
               />
               <div>Simplify</div>
@@ -46,7 +46,7 @@ const HumanizeBox = () => {
             <div className="flex gap-1 px-3.5 py-1.5 bg-slate-900 rounded-[50px]">
               <img
                 loading="lazy"
-                src=""
+                src={write1}
                 className="shrink-0 self-start aspect-square w-[21px]"
               />
               <div>Improve Writing</div>
@@ -60,14 +60,14 @@ const HumanizeBox = () => {
               <div className="flex-1">English (UK)</div>
               <img
                 loading="lazy"
-                src=""
+                src={gram1}
                 className="shrink-0 my-auto w-4 aspect-square"
               />
             </div>
             <div className="flex gap-2 justify-center px-6 py-2.5 rounded-md border-2 border-solid bg-slate-900 border-slate-500 max-md:px-5">
               <img
                 loading="lazy"
-                src=""
+                src={flag}
                 className="shrink-0 my-auto aspect-[0.93] w-[13px]"
               />
               <div>Set Goals</div>
@@ -75,7 +75,7 @@ const HumanizeBox = () => {
             <div className="flex gap-2 justify-center px-6 py-2.5 rounded-md border-2 border-solid bg-slate-900 border-slate-500 max-md:px-5">
               <img
                 loading="lazy"
-                src=""
+                src={vector}
                 className="shrink-0 my-auto aspect-[0.93] fill-purple-400 w-[15px]"
               />
               <div>Super Charge</div>
@@ -105,7 +105,7 @@ const HumanizeBox = () => {
                       <div className="flex gap-1 justify-center px-6 py-3 rounded-md border-2 border-solid bg-slate-800 border-slate-600 max-md:px-5">
                         <img
                           loading="lazy"
-                          src=""
+                          src={check2}
                           className="shrink-0 my-auto w-5 aspect-square"
                         />
                         <div>Check for AI</div>
@@ -113,7 +113,7 @@ const HumanizeBox = () => {
                       <div className="flex gap-1 justify-center px-6 py-3 whitespace-nowrap bg-violet-600 rounded border border-violet-300 border-solid max-md:px-5">
                         <img
                           loading="lazy"
-                          src=""
+                          src={spark1}
                           className="shrink-0 w-6 aspect-[0.96]"
                         />
                         <div>Humanize</div>

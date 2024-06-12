@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from "../../public/logo.png";
 import { BiRightArrow } from 'react-icons/bi';
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <div>
@@ -9,7 +10,8 @@ const Footer = () => {
           <div className="flex flex-col w-[37%] max-md:ml-0 max-md:w-full">
             <div className="flex grow gap-1.5 text-3xl font-semibold leading-7 text-white whitespace-nowrap max-md:mt-10">
               {/* logo */}
-              <section className='flex justify-center items-center'>
+              <Link to="/"><section className='flex justify-center items-center'>
+
                 <img
                   loading="lazy"
                   src={logo}
@@ -17,7 +19,8 @@ const Footer = () => {
                 />
                 <h1 className='text-2xl font-bold'>humanize</h1>
 
-              </section>
+
+              </section></Link>
             </div>
           </div>
           <div className="flex flex-col ml-5 w-[38%] max-md:ml-0 max-md:w-full">
