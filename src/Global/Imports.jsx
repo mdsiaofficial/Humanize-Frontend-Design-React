@@ -26,5 +26,6 @@ import upload from "../assets/imgs/upload.png";
 import vector from "../assets/imgs/vector.png";
 import web from "../assets/imgs/web.png";
 import write1 from "../assets/imgs/write1.svg";
+import checkai from "../assets/imgs/checkai.png";
 
-export { ar1, logo, logo2, arrowright, bypassfeat, bypasssoln, check1, check2, checkcircleicon, checkforai, content, ellipse, flag, framein, frameout, gram1, howitworks, msg, path, plus, rectangle, score, spark1, stars5, upload, vector, web, write1 };
+export { ar1, logo, logo2, arrowright, bypassfeat, bypasssoln, check1, check2, checkcircleicon, checkforai, content, ellipse, flag, framein, frameout, gram1, howitworks, msg, path, plus, rectangle, score, spark1, stars5, upload, vector, web, write1, checkai };

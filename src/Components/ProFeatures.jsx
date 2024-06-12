@@ -1,19 +1,23 @@
 import React from 'react'
+import { content, msg, path, score, upload, web } from '../Global/Imports'
 
 const ProFeatures = () => {
   return (
     <div>
-      {/* Pro Features */}
-      <div className="mt-32 text-4xl font-medium tracking-tight text-center leading-[55.08px] text-slate-50 max-md:mt-10">
-        Humanize Pro Features
-      </div>
-      <div className="self-stretch max-md:max-w-full">
+      <div className="mx-[20rem]">
+
+
+        {/* Pro Features */}
+        <div className="mt-32 text-4xl font-medium tracking-tight text-center leading-[55.08px] text-slate-50 max-md:mt-10">
+          Humanize Pro Features
+        </div>
+        <div className="self-stretch max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0">
             <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow items-center px-8 pt-8 pb-16 w-full font-medium text-center rounded-lg border-2 border-solid border-slate-500 max-md:px-5 max-md:mt-6 max-md:max-w-full">
                 <img
                   loading="lazy"
-                  src=""
+                  src={content}
                   className="aspect-[1.02] w-[61px]"
                 />
                 <div className="mt-8 text-2xl tracking-tight text-white leading-[54.96px]">
@@ -31,7 +35,7 @@ const ProFeatures = () => {
               <div className="flex flex-col grow items-center px-8 pt-8 pb-16 w-full font-medium text-center rounded-lg border-2 border-solid border-slate-500 max-md:px-5 max-md:mt-6 max-md:max-w-full">
                 <img
                   loading="lazy"
-                  src=""
+                  src={web}
                   className="aspect-[1.02] w-[61px]"
                 />
                 <div className="mt-8 text-2xl tracking-tight text-white leading-[54.96px]">
@@ -48,7 +52,7 @@ const ProFeatures = () => {
               <div className="flex flex-col grow items-center px-8 pt-8 pb-20 w-full font-medium text-center rounded-lg border-2 border-solid border-slate-500 max-md:px-5 max-md:mt-6 max-md:max-w-full">
                 <img
                   loading="lazy"
-                  src=""
+                  src={msg}
                   className="aspect-[1.02] w-[61px]"
                 />
                 <div className="mt-8 text-2xl tracking-tight text-white leading-[54.96px]">
@@ -69,7 +73,7 @@ const ProFeatures = () => {
               <div className="flex flex-col grow items-center px-8 pt-8 pb-20 w-full font-medium text-center rounded-lg border-2 border-solid border-slate-500 max-md:px-5 max-md:mt-6 max-md:max-w-full">
                 <img
                   loading="lazy"
-                  src=""
+                  src={path}
                   className="aspect-[1.02] w-[61px]"
                 />
                 <div className="mt-8 text-2xl tracking-tight text-white leading-[54.96px]">
@@ -86,7 +90,7 @@ const ProFeatures = () => {
               <div className="flex flex-col grow items-center px-8 pt-8 pb-20 w-full font-medium text-center rounded-lg border-2 border-solid border-slate-500 max-md:px-5 max-md:mt-6 max-md:max-w-full">
                 <img
                   loading="lazy"
-                  src=""
+                  src={score}
                   className="aspect-[1.02] w-[61px]"
                 />
                 <div className="mt-8 text-2xl tracking-tight text-white leading-[54.96px]">
@@ -104,7 +108,7 @@ const ProFeatures = () => {
               <div className="flex flex-col grow items-center px-6 pt-8 pb-16 w-full font-medium text-center rounded-lg border-2 border-solid border-slate-500 max-md:px-5 max-md:mt-6 max-md:max-w-full">
                 <img
                   loading="lazy"
-                  src=""
+                  src={upload}
                   className="aspect-[1.02] w-[61px]"
                 />
                 <div className="mt-8 text-2xl tracking-tight text-white leading-[54.96px]">
@@ -121,6 +125,7 @@ const ProFeatures = () => {
           </div>
         </div>
         {/* Pro Features end */}
+      </div>
     </div>
   )
 }

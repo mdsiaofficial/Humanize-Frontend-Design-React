@@ -1,6 +1,11 @@
 import React from 'react'
 import HumanizeBox from '../Components/HumanizeBox'
 import ProFeatures from '../Components/ProFeatures';
+import { arrowright, check1, checkforai, howitworks } from '../Global/Imports';
+import Bypass from '../Components/Bypass';
+import HowItWorks from '../Components/HowItWorks';
+import FAQ from '../Components/FAQ';
+import AiDetection from '../Components/AiDetection';
 
 const Home = () => {
   return (
@@ -21,241 +26,30 @@ const Home = () => {
         {/* humanize box */}
         <HumanizeBox />
 
-        {/* Bypass all part */}
-        <div className="self-center mt-40 text-4xl font-medium tracking-tight text-center leading-[55.08px] text-slate-50 max-md:mt-10 max-md:max-w-full">
-          Bypass all popular ai detectors
-        </div>
-      </div>
-      <div className="flex gap-3 px-5 mt-10 text-base font-medium leading-6 whitespace-nowrap text-slate-50 max-md:flex-wrap">
-        <div className="flex gap-2 justify-center px-6 py-3 border-2 border-solid bg-slate-900 border-slate-500 rounded-[50px] max-md:px-5">
-          <img
-            loading="lazy"
-            src=""
-            className="shrink-0 self-start w-6 aspect-square"
-          />
-          <div>OpenAI</div>
-        </div>
-        <div className="flex gap-2 justify-center px-6 py-3 border-2 border-solid bg-slate-900 border-slate-500 rounded-[50px] max-md:px-5">
-          <img
-            loading="lazy"
-            src=""
-            className="shrink-0 self-start w-6 aspect-square"
-          />
-          <div>GPTZero</div>
-        </div>
-        <div className="flex gap-2 justify-center px-6 py-3 border-2 border-solid bg-slate-900 border-slate-500 rounded-[50px] max-md:px-5">
-          <img
-            loading="lazy"
-            src=""
-            className="shrink-0 self-start w-6 aspect-square"
-          />
-          <div>CrossPlag</div>
-        </div>
-        <div className="flex gap-2 justify-center px-7 py-3 border-2 border-solid bg-slate-900 border-slate-500 rounded-[50px] max-md:px-5">
-          <img
-            loading="lazy"
-            src=""
-            className="shrink-0 self-start w-6 aspect-square"
-          />
-          <div>ContentAtScale</div>
-        </div>
-        <div className="flex gap-2 justify-center px-6 py-3 border-2 border-solid bg-slate-900 border-slate-500 rounded-[50px] max-md:px-5">
-          <img
-            loading="lazy"
-            src=""
-            className="shrink-0 self-start w-6 aspect-square"
-          />
-          <div>Sapling</div>
-        </div>
-        <div className="flex gap-2 justify-center px-6 py-3 border-2 border-solid bg-slate-900 border-slate-500 rounded-[50px] max-md:px-5">
-          <img
-            loading="lazy"
-            src=""
-            className="shrink-0 self-start w-6 aspect-square"
-          />
-          <div>CopyLeaks</div>
-        </div>
-        <div className="flex gap-2 justify-center px-6 py-3 border-2 border-solid bg-slate-900 border-slate-500 rounded-[50px] max-md:px-5">
-          <img
-            loading="lazy"
-            src=""
-            className="shrink-0 self-start w-6 aspect-square"
-          />
-          <div>ZeroGPT</div>
-        </div>
-        <div className="flex gap-2 justify-center px-6 py-3 border-2 border-solid bg-slate-900 border-slate-500 rounded-[50px] max-md:px-5">
-          <img
-            loading="lazy"
-            src=""
-            src=""
-            className="shrink-0 self-start w-6 aspect-square"
-          />
-          <div>Turnitin</div>
-        </div>
-      </div>
-      <div className="mt-32 text-4xl font-medium tracking-tight text-center leading-[55.08px] text-slate-50 max-md:mt-10">
-        How it works
-      </div>
-      <div className="mt-6 w-full max-w-[1119px] max-md:max-w-full">
-        <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-          <div className="flex flex-col w-[42%] max-md:ml-0 max-md:w-full">
-            <div className="flex flex-col self-stretch my-auto font-medium max-md:mt-10 max-md:max-w-full">
-              <div className="flex gap-5 max-md:flex-wrap">
-                <div className="shrink-0 self-start bg-violet-400 rounded-full h-[13px] w-[13px]" />
-                <div className="flex flex-col grow shrink-0 px-5 basis-0 w-fit">
-                  <div className="text-2xl tracking-tight text-white leading-[54.96px]">
-                    Step 1
-                  </div>
-                  <div className="mt-5 text-base leading-6 text-slate-300">
-                    Start by uploading your AI-generated text or type directly
-                    into Humanize.
-                  </div>
-                </div>
-              </div>
-              <div className="flex gap-5 mt-14 max-md:flex-wrap max-md:mt-10">
-                <div className="shrink-0 self-start bg-violet-400 rounded-full h-[13px] w-[13px]" />
-                <div className="flex flex-col grow shrink-0 px-5 basis-0 w-fit">
-                  <div className="text-2xl tracking-tight text-white leading-[54.96px]">
-                    Step 2
-                  </div>
-                  <div className="mt-5 text-base leading-6 text-slate-300">
-                    Customize using settings for style, tone, and purpose,
-                    tailoring the output to your exact needs.
-                  </div>
-                </div>
-              </div>
-              <div className="flex gap-5 mt-14 max-md:flex-wrap max-md:mt-10">
-                <div className="shrink-0 self-start bg-violet-400 rounded-full h-[13px] w-[13px]" />
-                <div className="flex flex-col grow shrink-0 px-5 basis-0 w-fit">
-                  <div className="text-2xl tracking-tight text-white leading-[54.96px]">
-                    Step 3
-                  </div>
-                  <div className="mt-5 text-base leading-6 text-slate-300">
-                    Click 'Humanize' and watch as your content is transformed
-                    into engaging, human-like prose.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col ml-5 w-[58%] max-md:ml-0 max-md:w-full">
-            <img
-              loading="lazy"
-              srcSet=""
-              className="grow w-full aspect-[1.1] max-md:mt-10 max-md:max-w-full"
-            />
-          </div>
-        </div>
       </div>
 
+      {/* Bypass all part */}
+      <Bypass />
+
+      {/* How it Works end */}
+      <HowItWorks />
+      {/* How it Works end */}
 
       {/* Pro Features */}
       <ProFeatures />
 
-      
-      {/* AI Detection */}
+
       <div className="flex flex-col items-center self-stretch px-16 mt-12 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
-        <div className="mt-40 text-4xl font-medium tracking-tight leading-10 text-center text-slate-50 w-[650px] max-md:mt-10 max-md:max-w-full">
-          Say Goodbye to AI Content Detection Woes and Hello to Top Rankings
-        </div>
-        <div className="mt-9 w-full max-w-[1090px] max-md:max-w-full">
-          <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-            <div className="flex flex-col w-[46%] max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col grow px-14 pt-20 pb-10 w-full text-lg font-medium leading-7 shadow-2xl backdrop-blur-[53.48258590698242px] bg-stone-300 bg-opacity-0 rounded-[59.9px] max-md:px-5 max-md:mt-10 max-md:max-w-full">
-                <div className="mt-40 bg-clip-text max-md:mt-10 max-md:mr-1">
-                  Steph took a photo of her carefully arranged breakfast and
-                  flowers. Her eggs and her coffee had gone cold, but the plate
-                  looked really cool. It was from an expensive art market she
-                  had visited that morning. The flowers were ones she'd
-                  'borrowed' from her neighbour's garden. No one had
-                  noticed. Besides, she thought, flowers are
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col ml-5 w-[54%] max-md:ml-0 max-md:w-full">
-              <div className="text-base font-medium leading-6 text-slate-300 max-md:mt-10 max-md:max-w-full">
-                Are you tired of feeling like you're battling against a robotic
-                overlord every time you write content? Do you find yourself
-                constantly tweaking and adjusting your words to satisfy the
-                whims of AI algorithms? Well, it's time to say goodbye to those
-                AI detection woes and hello to the top rankings.
-                <br />
-                <br />
-                With our innovative Bypass AI detection tool, you can finally
-                write without fear of falling short in the eyes of AI
-                algorithms. Our bypass AI detection tool uses sophisticated AI
-                bypass technology to ensure that your content meets the
-                requirements of search engines and resonates with your audience.
-                <br />
-                <br />
-                No more tedious, mind-numbing work trying to appease the robots.
-                Our bypass AI text detection tool does the heavy lifting for
-                you, freeing you up to focus on what you do best - creating
-                engaging, high-quality AI generated text that connects with your
-                audience.
-                <br />
-                So, if you're ready to say goodbye to the headaches of AI
-                content detection and hello to top rankings, look no further
-                than our bypass AI text detection tool. It's the secret weapon
-                you need to take your content to the next level and achieve your
-                desired success.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="flex gap-1 justify-center px-6 py-4 mt-3.5 ml-40 text-base font-semibold leading-6 bg-violet-600 rounded border border-violet-300 border-solid text-slate-50 max-md:px-5">
-          <div>Start Your Humanize Journey</div>
-          <img
-            loading="lazy"
-            src=""
-            className="shrink-0 my-auto aspect-square w-[18px]"
-          />
-        </div>
-        <div className="shrink-0 mt-20 max-w-full h-px border border-solid bg-slate-600 border-slate-600 w-[878px] max-md:mt-10" />
-        <div className="flex gap-5 mt-5 max-w-full text-xl font-medium tracking-normal leading-7 text-slate-200 w-[874px] max-md:flex-wrap">
-          <div className="flex-auto">
-            How can I Bypass AI Detection Using AISEO?
-          </div>
-          <img
-            loading="lazy"
-            src=""
-            className="shrink-0 w-8 aspect-square"
-          />
-        </div>
-        <div className="shrink-0 mt-6 max-w-full h-px border border-solid bg-slate-600 border-slate-600 w-[878px]" />
-        <div className="flex gap-5 mt-5 max-w-full text-xl font-medium tracking-normal leading-7 text-slate-200 w-[874px] max-md:flex-wrap">
-          <div className="flex-auto max-md:max-w-full">
-            What is AI content detection, and why is it important?
-          </div>
-          <img
-            loading="lazy"
-            src=""
-            className="shrink-0 w-8 aspect-square"
-          />
-        </div>
-        <div className="shrink-0 mt-6 max-w-full h-px border border-solid bg-slate-600 border-slate-600 w-[878px]" />
-        <div className="flex gap-5 mt-5 max-w-full text-xl font-medium tracking-normal leading-7 text-slate-200 w-[874px] max-md:flex-wrap">
-          <div className="flex-auto max-md:max-w-full">
-            How does AI content detection affect my website's rankings?
-          </div>
-          <img
-            loading="lazy"
-            src=""
-            className="shrink-0 w-8 aspect-square"
-          />
-        </div>
-        <div className="shrink-0 mt-6 max-w-full h-px border border-solid bg-slate-600 border-slate-600 w-[878px]" />
-        <div className="flex gap-5 mt-5 max-w-full text-xl font-medium tracking-normal leading-7 text-slate-200 w-[874px] max-md:flex-wrap">
-          <div className="flex-auto max-md:max-w-full">
-            Can I still rank high in search results without bypassing AI
-            detection?
-          </div>
-          <img
-            loading="lazy"
-            src=""
-            className="shrink-0 w-8 aspect-square"
-          />
-        </div>
+
+        {/* AI Detection */}
+        <AiDetection />
+        {/* AI Detection */}
+
+
+        {/* FAQ */}
+        <FAQ />
+        {/* FAQ */}
+
         <div className="shrink-0 mt-6 max-w-full h-px border border-solid bg-slate-600 border-slate-600 w-[878px]" />
         <div className="mt-32 text-4xl font-medium tracking-tight leading-10 text-center text-slate-50 w-[650px] max-md:mt-10 max-md:max-w-full">
           Get Ahead of the Competition with Our Innovative Bypass Solution
