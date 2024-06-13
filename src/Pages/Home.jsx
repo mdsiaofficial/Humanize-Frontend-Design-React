@@ -15,8 +15,13 @@ import FlexiblePrice from '../Components/FlexiblePrice';
 import CustomerFeedback from '../Components/CustomerFeedback';
 import GotQuestions from '../Components/GotQuestions';
 import Readyto from '../Components/Readyto';
-
+import Header
+  from '../Components/Header';
 const Home = () => {
+  const priceHeader = `Flexible pricing for every need`;
+  const priceText = `Simple, transparent pricing that grows with you. Try any plan free for 30 days. Save 20% with annual.`;
+
+
   return (
     <>
       <div className="flex flex-col items-center pt-10 bg-slate-900">
@@ -76,6 +81,10 @@ const Home = () => {
         <FAQ3 />
         {/* FAQ3 */}
 
+        {/* header */}
+        <div className="">
+          <Header title={priceHeader} text={priceText} />
+        </div>
         {/* Flexible */}
         <FlexiblePrice />
         {/* Flexible */}
