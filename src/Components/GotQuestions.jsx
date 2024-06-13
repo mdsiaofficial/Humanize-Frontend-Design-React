@@ -1,4 +1,5 @@
 import React from 'react'
+import { plus } from '../Global/Imports'
 
 const GotQuestions = () => {
   return (
@@ -15,11 +16,13 @@ const GotQuestions = () => {
               How does Humanize ensure the content remains undetectable by AI
               detectors?
             </div>
-            <img
-              loading="lazy"
-              src=""
-              className="shrink-0 w-8 aspect-square"
-            />
+            <button>
+              <img
+                loading="lazy"
+                src={plus}
+                className="shrink-0 w-8 aspect-square"
+              />
+            </button>
           </div>
           <div className="hidden mt-7 text-base font-medium leading-6 text-slate-300 max-md:max-w-full">
             Humanize uses state-of-the-art algorithms designed to subtly modify
@@ -33,11 +36,13 @@ const GotQuestions = () => {
             <div className="flex-auto max-md:max-w-full">
               Can Humanize work with content in languages other than English?
             </div>
-            <img
-              loading="lazy"
-              src=""
-              className="shrink-0 w-8 aspect-square"
-            />
+            <button>
+              <img
+                loading="lazy"
+                src={plus}
+                className="shrink-0 w-8 aspect-square"
+              />
+            </button>
           </div>
           <div className="shrink-0 mt-6 max-w-full h-px border border-solid bg-slate-600 border-slate-600 w-[878px]" />
           <div className="flex gap-5 px-5 mt-5 max-w-full text-xl font-medium tracking-normal leading-7 text-slate-200 w-[874px] max-md:flex-wrap">
@@ -45,22 +50,26 @@ const GotQuestions = () => {
               {" "}
               Is Humanize suitable for academic or business writing?
             </div>
-            <img
-              loading="lazy"
-              src=""
-              className="shrink-0 w-8 aspect-square"
-            />
+            <button>
+              <img
+                loading="lazy"
+                src={plus}
+                className="shrink-0 w-8 aspect-square"
+              />
+            </button>
           </div>
           <div className="shrink-0 mt-6 max-w-full h-px border border-solid bg-slate-600 border-slate-600 w-[878px]" />
           <div className="flex gap-5 px-5 mt-5 max-w-full text-xl font-medium tracking-normal leading-7 text-slate-200 w-[874px] max-md:flex-wrap">
             <div className="flex-auto max-md:max-w-full">
               What kind of customization options does Humanize offer?
             </div>
-            <img
-              loading="lazy"
-              src=""
-              className="shrink-0 w-8 aspect-square"
-            />
+            <button>
+              <img
+                loading="lazy"
+                src={plus}
+                className="shrink-0 w-8 aspect-square"
+              />
+            </button>
           </div>
           <div className="shrink-0 mt-6 max-w-full h-px border border-solid bg-slate-600 border-slate-600 w-[878px]" />
           <div className="flex gap-5 px-5 mt-5 max-w-full text-xl font-medium tracking-normal leading-7 text-slate-200 w-[874px] max-md:flex-wrap">
@@ -68,11 +77,13 @@ const GotQuestions = () => {
               {" "}
               Is there a trial period for Humanize, and what does it include?
             </div>
-            <img
-              loading="lazy"
-              src=""
-              className="shrink-0 w-8 aspect-square"
-            />
+            <button>
+              <img
+                loading="lazy"
+                src={plus}
+                className="shrink-0 w-8 aspect-square"
+              />
+            </button>
           </div>
           <div className="shrink-0 mt-6 max-w-full h-px border border-solid bg-slate-600 border-slate-600 w-[878px]" />
 

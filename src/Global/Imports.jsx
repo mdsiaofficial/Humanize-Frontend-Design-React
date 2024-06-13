@@ -28,5 +28,8 @@ import web from "../assets/imgs/web.png";
 import write1 from "../assets/imgs/write1.svg";
 import checkai from "../assets/imgs/checkai.png";
 import minus from "../assets/imgs/minus.png";
+import customer1 from "../assets/imgs/customer1.png";
+import customer2 from "../assets/imgs/customer2.png";
+import customer3 from "../assets/imgs/customer3.png";
 
-export { ar1, logo, logo2, arrowright, bypassfeat, bypasssoln, check1, check2, checkcircleicon, checkforai, content, ellipse, flag, framein, frameout, gram1, howitworks, msg, path, plus, rectangle, score, spark1, stars5, upload, vector, web, write1, checkai, minus};
+export { ar1, logo, logo2, arrowright, bypassfeat, bypasssoln, check1, check2, checkcircleicon, checkforai, content, ellipse, flag, framein, frameout, gram1, howitworks, msg, path, plus, rectangle, score, spark1, stars5, upload, vector, web, write1, checkai, minus, customer1, customer2, customer3};

@@ -1,5 +1,5 @@
 import React from 'react'
-import { stars5 } from '../Global/Imports'
+import { stars5, customer1, customer2, customer3 } from '../Global/Imports'
 
 const CustomerFeedback = () => {
   return (
@@ -30,7 +30,7 @@ const CustomerFeedback = () => {
                 <div className="flex gap-4 mt-5 font-semibold leading-[150%] text-slate-300">
                   <img
                     loading="lazy"
-                    srcSet=""
+                    src={customer1}
                     className="shrink-0 rounded-full border border-green-500 border-solid aspect-square w-[63px]"
                   />
                   <div className="my-auto">Jeronimo Barbery</div>
@@ -57,7 +57,7 @@ const CustomerFeedback = () => {
                 <div className="flex gap-4 mt-5 font-semibold leading-[150%] text-slate-300">
                   <img
                     loading="lazy"
-                    srcSet=""
+                    src={customer2}
                     className="shrink-0 rounded-full border border-green-500 border-solid aspect-square w-[63px]"
                   />
                   <div className="my-auto">Christian Harper</div>
@@ -84,7 +84,7 @@ const CustomerFeedback = () => {
                 <div className="flex gap-4 mt-5 font-semibold leading-[150%] text-slate-300">
                   <img
                     loading="lazy"
-                    srcSet=""
+                    src={customer3}
                     className="shrink-0 rounded-full border border-green-500 border-solid aspect-square w-[63px]"
                   />
                   <div className="my-auto">Aqsa Khalid</div>

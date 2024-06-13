@@ -94,7 +94,7 @@ const FlexiblePrice = () => {
                     Basic AI Detector Evasion
                   </div>
                 </div>
-                <div className="justify-center items-center px-6 py-4 mt-36 text-base font-semibold leading-6 text-white bg-violet-600 rounded border border-violet-300 border-solid max-md:px-5 max-md:mt-10">
+                <div className="justify-center items-center text-center px-6 py-4 mt-36 text-base font-semibold leading-6 text-white bg-violet-600 rounded border border-violet-300 border-solid max-md:px-5 max-md:mt-10">
                   Start Basic Plan
                 </div>
               </div>
@@ -184,7 +184,7 @@ const FlexiblePrice = () => {
                       Content Style Diversity Options
                     </div>
                   </div>
-                  <div className="justify-center px-11 py-4 mt-24 text-base font-semibold leading-6 text-white bg-violet-600 rounded border border-violet-300 border-solid max-md:px-8 max-md:mt-10">
+                  <div className="justify-center px-11 py-4 mt-24 text-base font-semibold leading-6 text-white bg-violet-600 text-center rounded border border-violet-300 border-solid max-md:px-8 max-md:mt-10">
                     Start Standard Plan
                   </div>
                 </div>
@@ -277,7 +277,7 @@ const FlexiblePrice = () => {
                     Dedicated Account Manager
                   </div>
                 </div>
-                <div className="justify-center items-center px-6 py-4 mt-14 text-base font-semibold leading-6 text-white bg-violet-600 rounded border border-violet-300 border-solid max-md:px-5 max-md:mt-10">
+                <div className="justify-center items-center px-6 py-4 mt-14 text-base font-semibold leading-6 text-white bg-violet-600 text-center rounded border border-violet-300 border-solid max-md:px-5 max-md:mt-10">
                   Start Premium Plan
                 </div>
               </div>
