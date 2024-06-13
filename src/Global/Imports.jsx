@@ -41,6 +41,7 @@ import blog6 from "../assets/imgs/blog6.png";
 import blog7 from "../assets/imgs/blog7.png";
 import blog8 from "../assets/imgs/blog8.png";
 import blog9 from "../assets/imgs/blog9.png";
+import left from "../assets/imgs/left.png";
 
 
-export { ar1, logo, logo2, arrowright, bypassfeat, bypasssoln, check1, check2, checkcircleicon, checkforai, content, ellipse, flag, framein, frameout, gram1, howitworks, msg, path, plus, rectangle, score, spark1, stars5, upload, vector, web, write1, checkai, minus, customer1, customer2, customer3, arrowrightup, blog1, blog2, blog3, blog4, blog5, blog6, blog7, blog8, blog9};
+export { ar1, logo, logo2, arrowright, bypassfeat, bypasssoln, check1, check2, checkcircleicon, checkforai, content, ellipse, flag, framein, frameout, gram1, howitworks, msg, path, plus, rectangle, score, spark1, stars5, upload, vector, web, write1, checkai, minus, customer1, customer2, customer3, arrowrightup, blog1, blog2, blog3, blog4, blog5, blog6, blog7, blog8, blog9, left};

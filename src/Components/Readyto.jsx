@@ -19,16 +19,16 @@ const Readyto = () => {
               Join thousands of content creators who trust Humanize to bring a
               human touch to their AI-generated content.
             </div>
-            <div className="flex gap-1 justify-center px-6 py-4 mt-10 text-base font-semibold leading-6 bg-violet-600 rounded border border-violet-300 border-solid max-md:px-5">
-              <button className='flex gap-3'>
+            <button className='flex gap-3'>
+              <div className="flex gap-1 justify-center px-6 py-4 mt-10 text-base font-semibold leading-6 bg-violet-600 rounded border border-violet-300 border-solid max-md:px-5">
                 <div>Start Your Humanize Journey</div>
                 <img
                   loading="lazy"
                   src={arrowright}
                   className="shrink-0 my-auto aspect-square w-[18px]"
                 />
-              </button>
-            </div>
+              </div>
+            </button>
           </div>
         </div>
       </div>
