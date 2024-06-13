@@ -49,14 +49,14 @@ const BypassFeat = () => {
             </div>
           </div>
         </div>
-        <div className="flex gap-1 justify-center px-6 py-4 mt-12 ml-40 text-base font-semibold leading-6 bg-violet-600 rounded border border-violet-300 border-solid text-slate-50 max-md:px-5 max-md:mt-10">
+        <button className="flex gap-1 justify-center px-6 py-4 mt-12 ml-40 text-base font-semibold leading-6 bg-violet-600 rounded border border-violet-300 border-solid text-slate-50 max-md:px-5 max-md:mt-10">
           <div>Start Your Humanize Journey</div>
           <img
             loading="lazy"
-            src=""
+            src={arrowright}
             className="shrink-0 my-auto aspect-square w-[18px]"
           />
-        </div>
+        </button>
       </div>
     </div>
   )

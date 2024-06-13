@@ -4,7 +4,7 @@ import { Switch } from '@mui/material';
 const FlexiblePrice = () => {
   return (
     <div>
-      <div className="flex justify-center items-center shrink-0 mt-3.5 max-w-full h-px border border-solid bg-slate-600 border-slate-600 w-[878px]" />
+      
         <div className="mt-32 text-4xl font-medium tracking-tight text-center leading-[55.08px] text-slate-50 max-md:mt-10 max-md:max-w-full">
           Flexible pricing for every need
         </div>
