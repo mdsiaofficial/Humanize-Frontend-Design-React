@@ -3,8 +3,8 @@ import { plus } from '../Global/Imports'
 
 const GotQuestions = () => {
   return (
-    <div>
-      <div className="mx-auto">
+    <div className=''>
+      <div className="mx-10 lg:mx-auto ">
         <div className="mt-32 text-4xl font-medium tracking-tight text-center leading-[55.08px] text-slate-50 max-md:mt-10 max-md:max-w-full">
           Got questions? we've got answers.
         </div>

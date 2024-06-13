@@ -8,12 +8,12 @@ const HowItWorks = () => {
         <div className="mt-32 text-4xl font-medium tracking-tight text-center leading-[55.08px] text-slate-50 max-md:mt-10">
           How it works
         </div>
-        <div className="flex mt-6 w-full max-w-[1119px] max-md:max-w-full">
+        <div className="flex mt-6 w-[80%] md:w-full max-w-[1119px] max-md:max-w-full">
           <div className="flex justify-center items-center gap-5 max-md:flex-col max-md:gap-0">
-            <div className="flex flex-col w-[42%] max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col lg:order-1 order-2 w-[42%] max-md:ml-0 max-md:w-full">
               <div className="flex flex-col self-stretch my-auto font-medium max-md:mt-10 max-md:max-w-full">
-                <div className="flex gap-5 max-md:flex-wrap">
-                  <div className="shrink-0 self-start bg-violet-400 rounded-full h-[13px] w-[13px]" />
+                <div className="flex gap-2 max-md:flex-wrap">
+                  <div className="shrink-0 mt-5 self-start bg-violet-400 rounded-full h-[13px] w-[13px]" />
                   <div className="flex flex-col grow shrink-0 px-5 basis-0 w-fit">
                     <div className="text-2xl tracking-tight text-white leading-[54.96px]">
                       Step 1
@@ -24,8 +24,8 @@ const HowItWorks = () => {
                     </div>
                   </div>
                 </div>
-                <div className="flex gap-5 mt-14 max-md:flex-wrap max-md:mt-10">
-                  <div className="shrink-0 self-start bg-violet-400 rounded-full h-[13px] w-[13px]" />
+                <div className="flex gap-2 mt-14 max-md:flex-wrap max-md:mt-10">
+                  <div className="shrink-0 mt-5 self-start bg-violet-400 rounded-full h-[13px] w-[13px]" />
                   <div className="flex flex-col grow shrink-0 px-5 basis-0 w-fit">
                     <div className="text-2xl tracking-tight text-white leading-[54.96px]">
                       Step 2
@@ -36,8 +36,8 @@ const HowItWorks = () => {
                     </div>
                   </div>
                 </div>
-                <div className="flex gap-5 mt-14 max-md:flex-wrap max-md:mt-10">
-                  <div className="shrink-0 self-start bg-violet-400 rounded-full h-[13px] w-[13px]" />
+                <div className="flex gap-2 mt-14 max-md:flex-wrap max-md:mt-10">
+                  <div className="shrink-0 mt-5 self-start bg-violet-400 rounded-full h-[13px] w-[13px]" />
                   <div className="flex flex-col grow shrink-0 px-5 basis-0 w-fit">
                     <div className="text-2xl tracking-tight text-white leading-[54.96px]">
                       Step 3
@@ -50,11 +50,11 @@ const HowItWorks = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col ml-5 w-[58%] max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col ml-5 w-[58%] max-md:ml-0 max-md:w-full order-1 lg:order-2">
               <img
                 loading="lazy"
                 src={howitworks}
-                className="grow w-full aspect-[1.1] max-md:mt-10 max-md:max-w-full"
+                className="grow w-full aspect-[1.1] md:mt-6"
               />
             </div>
           </div>

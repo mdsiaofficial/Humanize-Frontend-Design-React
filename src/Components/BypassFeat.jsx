@@ -2,7 +2,7 @@ import React from 'react'
 import { ar1, logo, logo2, arrowright, bypassfeat, bypasssoln, check1, check2, checkcircleicon, checkforai, content, ellipse, flag, framein, frameout, gram1, howitworks, msg, path, plus, rectangle, score, spark1, stars5, upload, vector, web, write1 } from '../Global/Imports.jsx';
 const BypassFeat = () => {
   return (
-    <div>
+    <div className='flex flex-col justify-center items-center w-[33%] lg:w-full max-md:ml-0 max-md:w-full'>
       <div className="flex flex-col justify-center items-center">
       <div className="shrink-0 mt-6 max-w-full h-px border border-solid bg-slate-600 border-slate-600 w-[878px]" />
         <div className="mt-32 text-4xl font-medium tracking-tight leading-10 text-center text-slate-50 w-[650px] max-md:mt-10 max-md:max-w-full">
@@ -49,7 +49,7 @@ const BypassFeat = () => {
             </div>
           </div>
         </div>
-        <button className="flex gap-1 justify-center px-6 py-4 mt-12 ml-40 text-base font-semibold leading-6 bg-violet-600 rounded border border-violet-300 border-solid text-slate-50 max-md:px-5 max-md:mt-10">
+        <button className="flex gap-1 justify-center px-6 py-4 mt-12 lg:ml-40 text-base font-semibold leading-6 bg-violet-600 rounded border border-violet-300 border-solid text-slate-50 max-md:px-5 max-md:mt-10">
           <div>Start Your Humanize Journey</div>
           <img
             loading="lazy"

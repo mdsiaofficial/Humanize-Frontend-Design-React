@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <div>
-      <div className="self-stretch px-16 py-10 mt-20 w-full bg-gray-900 shadow-sm max-md:px-5 max-md:mt-10 max-md:max-w-full">
+      <div className="self-stretch px-16 lg:py-10 lg:mt-20 w-full bg-gray-900 border border-slate-600 shadow-sm max-md:px-5 max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="flex flex-col w-[37%] max-md:ml-0 max-md:w-full">
             <div className="flex grow gap-1.5 text-3xl font-semibold leading-7 text-white whitespace-nowrap max-md:mt-10">
@@ -22,12 +22,12 @@ const Footer = () => {
               </section></Link>
             </div>
           </div>
-          <div className="flex flex-col ml-5 w-[38%] max-md:ml-0 max-md:w-full">
+          <div className="flex flex-col order-2 lg:order-1 ml-5 w-[38%] mb-5 max-md:ml-0 max-md:w-full">
             <div className="text-base font-medium leading-6 text-slate-50 max-md:mt-10">
               © 2024 Humanize | All rights reserved
             </div>
           </div>
-          <div className="flex flex-col ml-5 w-[26%] max-md:ml-0 max-md:w-full">
+          <div className="flex flex-col order-1 lg:order-2 ml-5 w-[26%] max-md:ml-0 max-md:w-full">
             <div className="flex grow gap-5 justify-between mt-2 text-base font-medium leading-6 whitespace-nowrap text-slate-50 max-md:mt-10">
               {/* nav links */}
               

@@ -4,7 +4,7 @@ import { content, msg, path, score, upload, web } from '../Global/Imports'
 const ProFeatures = () => {
   return (
     <div>
-      <div className="mx-[20rem]">
+      <div className="mx-4 sm:mx-[20rem]">
 
 
         {/* Pro Features */}
@@ -13,6 +13,8 @@ const ProFeatures = () => {
         </div>
         <div className="self-stretch max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+            
+            {/* box 1 */}
             <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow items-center px-8 pt-8 pb-16 w-full font-medium text-center rounded-lg border-2 border-solid border-slate-500 max-md:px-5 max-md:mt-6 max-md:max-w-full">
                 <img
@@ -31,6 +33,8 @@ const ProFeatures = () => {
                 </div>
               </div>
             </div>
+
+            {/* box 1 */}
             <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow items-center px-8 pt-8 pb-16 w-full font-medium text-center rounded-lg border-2 border-solid border-slate-500 max-md:px-5 max-md:mt-6 max-md:max-w-full">
                 <img
@@ -48,6 +52,8 @@ const ProFeatures = () => {
                 </div>
               </div>
             </div>
+
+            {/* box 1 */}
             <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow items-center px-8 pt-8 pb-20 w-full font-medium text-center rounded-lg border-2 border-solid border-slate-500 max-md:px-5 max-md:mt-6 max-md:max-w-full">
                 <img
@@ -65,10 +71,12 @@ const ProFeatures = () => {
                 </div>
               </div>
             </div>
+
           </div>
         </div>
         <div className="self-stretch mt-6 max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+              {/* box 1 */}
             <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow items-center px-8 pt-8 pb-20 w-full font-medium text-center rounded-lg border-2 border-solid border-slate-500 max-md:px-5 max-md:mt-6 max-md:max-w-full">
                 <img
@@ -86,6 +94,8 @@ const ProFeatures = () => {
                 </div>
               </div>
             </div>
+
+            {/* box 1 */}
             <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow items-center px-8 pt-8 pb-20 w-full font-medium text-center rounded-lg border-2 border-solid border-slate-500 max-md:px-5 max-md:mt-6 max-md:max-w-full">
                 <img
@@ -104,6 +114,8 @@ const ProFeatures = () => {
                 </div>
               </div>
             </div>
+
+            {/* box 1 */}
             <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow items-center px-6 pt-8 pb-16 w-full font-medium text-center rounded-lg border-2 border-solid border-slate-500 max-md:px-5 max-md:mt-6 max-md:max-w-full">
                 <img

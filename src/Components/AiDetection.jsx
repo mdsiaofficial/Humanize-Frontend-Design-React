@@ -4,7 +4,7 @@ const AiDetection = () => {
   return (
     <div>
       <div className="flex flex-col justify-center items-center">
-        <div className="mt-40 text-4xl font-medium tracking-tight leading-10 text-center text-slate-50 w-[650px] max-md:mt-10 max-md:max-w-full">
+        <div className="mt-40 text-3xl md:text-4xl font-medium tracking-tight leading-10 text-center text-slate-50 md:w-[650px] max-md:mt-10 max-md:max-w-full">
           Say Goodbye to AI Content Detection Woes and Hello to Top Rankings
         </div>
         <div className="mt-9 w-full max-w-[1090px] max-md:max-w-full">
@@ -65,7 +65,7 @@ const AiDetection = () => {
             </div>
           </div>
         </div>
-        <button className="flex gap-1 justify-center px-6 py-4 mt-3.5 ml-40 text-base font-semibold leading-6 bg-violet-600 rounded border border-violet-300 border-solid text-slate-50 max-md:px-5">
+        <button className="flex gap-1 justify-center px-6 py-4 mt-3.5 lg:ml-40 text-base font-semibold leading-6 bg-violet-600 rounded border border-violet-300 border-solid text-slate-50 max-md:px-5">
           <div>Start Your Humanize Journey</div>
           <img
             loading="lazy"

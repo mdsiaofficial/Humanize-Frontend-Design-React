@@ -4,9 +4,9 @@ import { ar1, logo, logo2, arrowright, bypassfeat, bypasssoln, check1, check2, c
 
 const Navbar = () => {
   return (
-    <nav className=' p-4 m-4'>
+    <nav className=' p-2 lg:p-4 m-2 lg:m-4'>
 
-      <div className="flex gap-5 justify-between items-center px-5 text-base text-slate-50 max-md:flex-wrap">
+      <div className="flex gap-5 justify-between items-center px-1 lg:px-5 text-base text-slate-50 max-md:flex-wrap">
 
         {/* logo */}
         <Link to="/"><section className='flex justify-center items-center'>
@@ -23,7 +23,7 @@ const Navbar = () => {
 
 
         {/* nav links */}
-        <section className="flex gap-5 justify-between self-stretch my-auto font-medium whitespace-nowrap leading-[156%]">
+        <section className="hidden lg:flex gap-5 justify-between self-stretch my-auto font-medium whitespace-nowrap leading-[156%]">
           <Link to="/">Home</Link>
           <Link to="/pricing">Pricing</Link>
           <Link to="/contact">Contact</Link>
@@ -32,7 +32,7 @@ const Navbar = () => {
 
         {/* Upgrade button */}
         <Link to="/pricing">
-          <div className="flex gap-1 justify-center self-stretch px-6 py-3 font-semibold bg-violet-600 rounded border border-violet-300 border-solid leading-[150%] max-md:px-5">
+          <div className="hidden lg:flex gap-1 justify-center self-stretch px-6 py-3 font-semibold bg-violet-600 rounded border border-violet-300 border-solid leading-[150%] max-md:px-5">
 
             <div>Upgrade to PRO</div>
 

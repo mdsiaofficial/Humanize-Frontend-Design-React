@@ -3,7 +3,7 @@ import { arrowright, logo2 } from '../Global/Imports'
 
 const Readyto = () => {
   return (
-    <div>
+    <div className='mx-5 lg:mx-auto '>
       <div className="flex justify-center">
         <div className="flex flex-col items-center px-16 pt-12 pb-20 mt-20 w-full font-medium rounded-lg border-2 border-solid border-slate-500 max-w-[1319px] text-slate-50 max-md:px-5 max-md:mt-10 max-md:max-w-full">
           <div className="flex flex-col items-center mb-3 max-w-full w-[689px]">

@@ -24,14 +24,16 @@ const Home = () => {
 
   return (
     <>
-      <div className="flex flex-col items-center pt-10 bg-slate-900">
-        <header className="flex flex-col items-center pt-10 bg-slate-900">
+      <div className="flex flex-col items-center lg:pt-10 bg-slate-900">
+        <header className="flex flex-col items-center lg:pt-10 bg-slate-900">
+
+
           {/* heading */}
-          <div className="mt-18 text-6xl font-semibold tracking-tighter text-center text-white leading-[65px] w-[860px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-10">
-            <span className="font-medium">Transform AI writing into natural  human text with </span>
+          <div className="lg:mt-18 text-2xl lg:text-6xl font-semibold tracking-tighter text-center text-white leading-[65px] lg:w-[860px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-10">
+            <span className="lg:font-medium">Transform AI writing into natural  human text with </span>
             <span className="font-medium text-violet-400">humanize!</span>
           </div>
-          <div className="mt-6 text-lg font-medium leading-7 text-center text-slate-200 max-md:max-w-full">
+          <div className="mt-3 lg:mt-6 text-lg font-medium leading-7 text-center text-slate-200 max-md:max-w-full">
             Advanced AI humanization to bypass AI detection effortlessly.
           </div>
 
@@ -53,7 +55,7 @@ const Home = () => {
       <ProFeatures />
 
 
-      <div className="flex flex-col items-center self-stretch px-16 mt-12 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
+      <div className="flex flex-col justify-center items-center self-stretch mx-auto mt-12 w-[90%] max-md:px-5 max-md:mt-10 max-md:max-w-full">
 
         {/* AI Detection */}
         <AiDetection />
@@ -82,7 +84,7 @@ const Home = () => {
         {/* FAQ3 */}
 
         {/* header */}
-        <div className="">
+        <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
           <Header title={priceHeader} text={priceText} />
         </div>
         {/* Flexible */}

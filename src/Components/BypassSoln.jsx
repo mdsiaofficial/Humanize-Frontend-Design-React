@@ -2,7 +2,7 @@ import React from 'react'
 import { ar1, logo, logo2, arrowright, bypassfeat, bypasssoln, check1, check2, checkcircleicon, checkforai, content, ellipse, flag, framein, frameout, gram1, howitworks, msg, path, plus, rectangle, score, spark1, stars5, upload, vector, web, write1 } from '../Global/Imports.jsx';
 const BypassSoln = () => {
   return (
-    <div>
+    <div className='flex flex-col justify-center items-center w-[33%] lg:w-full max-md:ml-0 max-md:w-full'>
       <div className="flex flex-col justify-center items-center">
         <div className="mt-32 text-4xl font-medium tracking-tight leading-10 text-center text-slate-50 w-[650px] max-md:mt-10 max-md:max-w-full">
           Get Ahead of the Competition with Our Innovative Bypass Solution
