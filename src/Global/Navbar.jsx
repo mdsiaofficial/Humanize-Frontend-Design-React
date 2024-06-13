@@ -1,5 +1,4 @@
 import React from 'react'
-import { BiRightArrow } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
 import { ar1, logo, logo2, arrowright, bypassfeat, bypasssoln, check1, check2, checkcircleicon, checkforai, content, ellipse, flag, framein, frameout, gram1, howitworks, msg, path, plus, rectangle, score, spark1, stars5, upload, vector, web, write1 } from '../Global/Imports';
 
@@ -11,14 +10,14 @@ const Navbar = () => {
 
         {/* logo */}
         <Link to="/"><section className='flex justify-center items-center'>
-          
-            <img
-              loading="lazy"
-              src={logo}
-              className="shrink-0 self-stretch my-auto w-[35px] h-auto"
-            />
-            <h1 className='text-2xl font-bold'>humanize</h1>
-          
+
+          <img
+            loading="lazy"
+            src={logo}
+            className="shrink-0 self-stretch my-auto w-[35px] h-auto"
+          />
+          <h1 className='text-2xl font-bold'>humanize</h1>
+
 
         </section></Link>
 
@@ -32,11 +31,14 @@ const Navbar = () => {
         </section>
 
         {/* Upgrade button */}
-        <div className="flex gap-1 justify-center self-stretch px-6 py-3 font-semibold bg-violet-600 rounded border border-violet-300 border-solid leading-[150%] max-md:px-5">
-          <div>Upgrade to PRO</div>
-          {/* <BiRightArrow className="my-auto" /> */}
-          <img src={arrowright} alt="" />
-        </div>
+        <Link to="/pricing">
+          <div className="flex gap-1 justify-center self-stretch px-6 py-3 font-semibold bg-violet-600 rounded border border-violet-300 border-solid leading-[150%] max-md:px-5">
+
+            <div>Upgrade to PRO</div>
+
+            <img src={arrowright} alt="" />
+          </div>
+        </Link>
       </div>
     </nav>
   );

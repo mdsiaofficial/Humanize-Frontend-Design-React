@@ -1,5 +1,6 @@
 import React from 'react'
 import { Switch } from '@mui/material';
+import { checkcircleicon } from '../Global/Imports';
 
 const FlexiblePrice = () => {
   return (
@@ -41,16 +42,17 @@ const FlexiblePrice = () => {
                 <div className="flex gap-2 mt-12 text-base font-medium leading-6 max-md:mt-10">
                   <img
                     loading="lazy"
-                    src=""
-                    className="shrink-0 w-5 aspect-square"
+                    src={checkcircleicon}
+                    className="shrink-0 w-6 aspect-square"
                   />
-                  <div className="flex-auto my-auto">20,000 words/month</div>
+                <div className="flex-auto my-auto">
+                  20,000 words/month</div>
                 </div>
                 <div className="flex gap-2 mt-5 text-base font-medium leading-6">
                   <img
                     loading="lazy"
-                    src=""
-                    className="shrink-0 w-5 aspect-square"
+                    src={checkcircleicon}
+                    className="shrink-0 w-6 aspect-square"
                   />
                   <div className="flex-auto my-auto">
                     Basic Humanization Features
@@ -59,8 +61,8 @@ const FlexiblePrice = () => {
                 <div className="flex gap-2 mt-5 text-base font-medium leading-6">
                   <img
                     loading="lazy"
-                    src=""
-                    className="shrink-0 w-5 aspect-square"
+                    src={checkcircleicon}
+                    className="shrink-0 w-6 aspect-square"
                   />
                   <div className="flex-auto my-auto">
                     Language Support: 2 languages
@@ -69,16 +71,16 @@ const FlexiblePrice = () => {
                 <div className="flex gap-2 mt-5 text-base font-medium leading-6">
                   <img
                     loading="lazy"
-                    src=""
-                    className="shrink-0 w-5 aspect-square"
+                    src={checkcircleicon}
+                    className="shrink-0 w-6 aspect-square"
                   />
                   <div className="flex-auto my-auto">Email Support</div>
                 </div>
                 <div className="flex gap-2 mt-5 text-base font-medium leading-6">
                   <img
                     loading="lazy"
-                    src=""
-                    className="shrink-0 w-5 aspect-square"
+                    src={checkcircleicon}
+                    className="shrink-0 w-6 aspect-square"
                   />
                   <div className="flex-auto my-auto">
                     Access to Standard Engine
@@ -87,8 +89,8 @@ const FlexiblePrice = () => {
                 <div className="flex gap-2 mt-5 text-base font-medium leading-6">
                   <img
                     loading="lazy"
-                    src=""
-                    className="shrink-0 w-5 aspect-square"
+                    src={checkcircleicon}
+                    className="shrink-0 w-6 aspect-square"
                   />
                   <div className="flex-auto my-auto">
                     Basic AI Detector Evasion
@@ -119,16 +121,16 @@ const FlexiblePrice = () => {
                   <div className="flex gap-2 mt-12 text-base font-medium leading-6 max-md:mt-10">
                     <img
                       loading="lazy"
-                      src=""
-                      className="shrink-0 w-5 aspect-square"
+                      src={checkcircleicon}
+                    className="shrink-0 w-6 aspect-square"
                     />
                     <div className="flex-auto my-auto">100,000 words/month</div>
                   </div>
                   <div className="flex gap-2 mt-5 text-base font-medium leading-6">
                     <img
                       loading="lazy"
-                      src=""
-                      className="shrink-0 w-5 aspect-square"
+                      src={checkcircleicon}
+                    className="shrink-0 w-6 h-6 aspect-square"
                     />
                     <div className="flex-auto my-auto">
                       Advanced Humanization Features
@@ -137,8 +139,8 @@ const FlexiblePrice = () => {
                   <div className="flex gap-2 mt-5 text-base font-medium leading-6">
                     <img
                       loading="lazy"
-                      src=""
-                      className="shrink-0 w-5 aspect-square"
+                      src={checkcircleicon}
+                    className="shrink-0 w-6 aspect-square"
                     />
                     <div className="flex-auto my-auto">
                       Language Support: 5 languages
@@ -147,8 +149,8 @@ const FlexiblePrice = () => {
                   <div className="flex gap-2 mt-5 text-base font-medium leading-6">
                     <img
                       loading="lazy"
-                      src=""
-                      className="shrink-0 w-5 aspect-square"
+                      src={checkcircleicon}
+                    className="shrink-0 w-6 aspect-square"
                     />
                     <div className="flex-auto my-auto">
                       Priority Email Support
@@ -157,8 +159,8 @@ const FlexiblePrice = () => {
                   <div className="flex gap-2 mt-5 text-base font-medium leading-6">
                     <img
                       loading="lazy"
-                      src=""
-                      className="shrink-0 w-5 aspect-square"
+                      src={checkcircleicon}
+                    className="shrink-0 w-6 aspect-square"
                     />
                     <div className="flex-auto my-auto">
                       Access to Advanced Engine
@@ -167,8 +169,8 @@ const FlexiblePrice = () => {
                   <div className="flex gap-2 mt-5 text-base font-medium leading-6">
                     <img
                       loading="lazy"
-                      src=""
-                      className="shrink-0 w-5 aspect-square"
+                      src={checkcircleicon}
+                    className="shrink-0 w-6 aspect-square"
                     />
                     <div className="flex-auto my-auto">
                       Improved AI Detector Evasion
@@ -177,8 +179,8 @@ const FlexiblePrice = () => {
                   <div className="flex gap-2 mt-5 text-base font-medium leading-6">
                     <img
                       loading="lazy"
-                      src=""
-                      className="shrink-0 w-5 aspect-square"
+                      src={checkcircleicon}
+                    className="shrink-0 w-6 aspect-square"
                     />
                     <div className="flex-auto my-auto">
                       Content Style Diversity Options
@@ -206,24 +208,24 @@ const FlexiblePrice = () => {
                 <div className="flex gap-2 mt-12 text-base font-medium leading-6 max-md:mt-10">
                   <img
                     loading="lazy"
-                    src=""
-                    className="shrink-0 w-5 aspect-square"
+                    src={checkcircleicon}
+                    className="shrink-0 w-6 aspect-square"
                   />
                   <div className="flex-auto my-auto">300,000 words/month</div>
                 </div>
                 <div className="flex gap-2 mt-5 text-base font-medium leading-6">
                   <img
                     loading="lazy"
-                    src=""
-                    className="shrink-0 w-5 aspect-square"
+                    src={checkcircleicon}
+                    className="shrink-0 w-6 aspect-square"
                   />
                   <div className="flex-auto my-auto">All Advanced Features</div>
                 </div>
                 <div className="flex gap-2 mt-5 text-base font-medium leading-6">
                   <img
                     loading="lazy"
-                    src=""
-                    className="shrink-0 w-5 aspect-square"
+                    src={checkcircleicon}
+                    className="shrink-0 w-6 aspect-square"
                   />
                   <div className="flex-auto my-auto">
                     Unlimited Language Support
@@ -232,8 +234,8 @@ const FlexiblePrice = () => {
                 <div className="flex gap-2 mt-5 text-base font-medium leading-6">
                   <img
                     loading="lazy"
-                    src=""
-                    className="shrink-0 w-5 aspect-square"
+                    src={checkcircleicon}
+                    className="shrink-0 w-6 h-6 aspect-square"
                   />
                   <div className="flex-auto my-auto">
                     Priority Phone and Email Support
@@ -242,8 +244,8 @@ const FlexiblePrice = () => {
                 <div className="flex gap-2 mt-5 text-base font-medium leading-6">
                   <img
                     loading="lazy"
-                    src=""
-                    className="shrink-0 w-5 aspect-square"
+                    src={checkcircleicon}
+                    className="shrink-0 w-6 aspect-square"
                   />
                   <div className="flex-auto my-auto">
                     Access to Premium Engine
@@ -252,16 +254,16 @@ const FlexiblePrice = () => {
                 <div className="flex gap-2 mt-5 text-base font-medium leading-6">
                   <img
                     loading="lazy"
-                    src=""
-                    className="shrink-0 w-5 aspect-square"
+                    src={checkcircleicon}
+                    className="shrink-0 w-6 h-6 aspect-square"
                   />
                   <div className="flex-auto my-auto">Advanced AI Detector</div>
                 </div>
                 <div className="flex gap-2 mt-5 text-base font-medium leading-6">
                   <img
                     loading="lazy"
-                    src=""
-                    className="shrink-0 w-5 aspect-square"
+                    src={checkcircleicon}
+                    className="shrink-0 w-6 aspect-square"
                   />
                   <div className="flex-auto my-auto">
                     Real-Time Human Score Analysis
@@ -270,8 +272,8 @@ const FlexiblePrice = () => {
                 <div className="flex gap-2 mt-5 text-base font-medium leading-6">
                   <img
                     loading="lazy"
-                    src=""
-                    className="shrink-0 w-5 aspect-square"
+                    src={checkcircleicon}
+                    className="shrink-0 w-6 aspect-square"
                   />
                   <div className="flex-auto my-auto">
                     Dedicated Account Manager

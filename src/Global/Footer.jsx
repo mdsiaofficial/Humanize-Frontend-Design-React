@@ -11,7 +11,6 @@ const Footer = () => {
             <div className="flex grow gap-1.5 text-3xl font-semibold leading-7 text-white whitespace-nowrap max-md:mt-10">
               {/* logo */}
               <Link to="/"><section className='flex justify-center items-center'>
-
                 <img
                   loading="lazy"
                   src={logo}
