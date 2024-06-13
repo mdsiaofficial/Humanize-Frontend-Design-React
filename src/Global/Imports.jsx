@@ -31,5 +31,16 @@ import minus from "../assets/imgs/minus.png";
 import customer1 from "../assets/imgs/customer1.png";
 import customer2 from "../assets/imgs/customer2.png";
 import customer3 from "../assets/imgs/customer3.png";
+import arrowrightup from "../assets/imgs/arrowrightup.png";
+import blog1 from "../assets/imgs/blog1.png";
+import blog2 from "../assets/imgs/blog2.png";
+import blog3 from "../assets/imgs/blog3.png";
+import blog4 from "../assets/imgs/blog4.png";
+import blog5 from "../assets/imgs/blog5.png";
+import blog6 from "../assets/imgs/blog6.png";
+import blog7 from "../assets/imgs/blog7.png";
+import blog8 from "../assets/imgs/blog8.png";
+import blog9 from "../assets/imgs/blog9.png";
 
-export { ar1, logo, logo2, arrowright, bypassfeat, bypasssoln, check1, check2, checkcircleicon, checkforai, content, ellipse, flag, framein, frameout, gram1, howitworks, msg, path, plus, rectangle, score, spark1, stars5, upload, vector, web, write1, checkai, minus, customer1, customer2, customer3};
+
+export { ar1, logo, logo2, arrowright, bypassfeat, bypasssoln, check1, check2, checkcircleicon, checkforai, content, ellipse, flag, framein, frameout, gram1, howitworks, msg, path, plus, rectangle, score, spark1, stars5, upload, vector, web, write1, checkai, minus, customer1, customer2, customer3, arrowrightup, blog1, blog2, blog3, blog4, blog5, blog6, blog7, blog8, blog9};

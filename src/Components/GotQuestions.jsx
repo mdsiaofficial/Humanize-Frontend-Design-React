@@ -16,7 +16,7 @@ const GotQuestions = () => {
               How does Humanize ensure the content remains undetectable by AI
               detectors?
             </div>
-            <button>
+            <button> 
               <img
                 loading="lazy"
                 src={plus}
