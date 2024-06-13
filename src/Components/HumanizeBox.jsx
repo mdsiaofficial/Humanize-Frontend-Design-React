@@ -156,7 +156,7 @@ const HumanizeBox = () => {
               <div className="flex-auto my-auto">Humanized</div>
             </div>
           </section>
-          <textarea id="inputbox" name="inputbox" className="h-[477px] w-[324px] bg-slate-900 border ">Paste text here...</textarea>
+          <textarea id="inputbox" name="inputbox" className="h-[477px] w-[324px] bg-slate-900 border text-white">Paste text here...</textarea>
 
           {/* score and word count */}
           <div className="text-white flex gap-5 -mt-[6rem] ml-[2rem] ">
