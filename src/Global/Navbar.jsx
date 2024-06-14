@@ -30,6 +30,20 @@ const Navbar = () => {
           <Link to="/blog">Blog</Link>
         </section>
 
+        {/* mobile nav */}
+        {/* <section>
+          <button className="lg:hidden text-slate-50 hover:text-slate-100 transition duration">
+            <img src={MenuOpenOutlined} alt="" />
+          </button>
+          <section className="flex flex-col gap-5 bg-violet-600 py-10 px-10 absolute justify-between self-stretch my-auto font-medium whitespace-nowrap leading-[156%]">
+            <Link to="/">Home</Link>
+            <Link to="/pricing">Pricing</Link>
+            <Link to="/contact">Contact</Link>
+            <Link to="/blog">Blog</Link>
+          </section>
+        </section> */}
+
+
         {/* Upgrade button */}
         <Link to="/pricing">
           <div className="hidden lg:flex gap-1 justify-center self-stretch px-6 py-3 font-semibold bg-violet-600 rounded border border-violet-300 border-solid leading-[150%] max-md:px-5">

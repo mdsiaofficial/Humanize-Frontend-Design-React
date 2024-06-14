@@ -3,7 +3,7 @@ import { ar1, logo, logo2, arrowright, bypassfeat, bypasssoln, check1, check2, c
 const BypassFeat = () => {
   return (
     <div className='flex flex-col w-[33%] lg:w-full max-md:ml-0 max-md:w-full'>
-      <div className="flex flex-col mx-10 lg:mx-auto justify-center items-center">
+      <div className="flex flex-col mx-5 lg:mx-auto justify-center items-center">
       
         <div className="mt-32 text-4xl font-medium tracking-tight leading-10 text-center text-slate-50 w-[650px] max-md:mt-10 max-md:max-w-full">
           Experience the Magic of Authentic Content with Our Bypass Feature

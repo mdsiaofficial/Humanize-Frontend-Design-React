@@ -18,7 +18,7 @@ function App() {
     <>
       <Router>
         <div className="bg-slate-900">
-          {/* <Navbar /> */}
+          <Navbar />
           <main>
             <Routes>
               <Route path='/' element={<Home />}></Route>
@@ -29,7 +29,7 @@ function App() {
               <Route path='/debugger' element={<Debugger />}></Route>
             </Routes>
           </main>
-          {/* <Footer /> */}
+          <Footer />
         </div>
       </Router>
     </>

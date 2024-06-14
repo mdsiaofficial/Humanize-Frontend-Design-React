@@ -6,9 +6,9 @@ const BlogCard = ({ title, img }) => {
   return (
 
     <div>
-      <div className="bg-slate-600 text-white w-[427px] h-[510px] rounded-2xl">
+      <div className="bg-slate-600 text-white lg:w-[427px] lg:h-[510px] rounded-2xl">
         <section className='flex justify-center py-4'>
-          <img src={img} alt="" className='w-[395px] h-[298px]' />
+          <img src={img} alt="" className='w-[355px] h-auto lg:w-[395px] lg:h-[298px]' />
         </section>
         <section className='flex w-[398px] flex-col px-5'>
 

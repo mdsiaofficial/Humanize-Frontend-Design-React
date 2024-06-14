@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col order-1 lg:order-2 ml-5 w-[26%] max-md:ml-0 max-md:w-full">
-            <div className="flex grow gap-5 justify-between mt-2 text-base font-medium leading-6 whitespace-nowrap text-slate-50 max-md:mt-2">
+            <div className="flex grow gap-5 justify-around mt-2 text-base font-medium leading-6 whitespace-nowrap text-slate-50 max-md:mt-2">
               {/* nav links */}
               
                 <Link to="/">Home</Link>
