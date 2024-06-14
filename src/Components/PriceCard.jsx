@@ -59,7 +59,7 @@ const PriceCard = ({ scheme }) => {
 
   return (
     <div>
-      <div className="flex flex-col max-md:ml-0 max-md:w-full h-[740.16px]">
+      <div className="flex flex-col max-md:ml-0 max-md:w-full lg:h-[740.16px]">
         <div className="flex flex-col grow px-6 lg:pt-5 pb-11 mx-auto w-full rounded-2xl border-2 border-solid border-slate-500 text-slate-100 max-md:px-5 max-md:mt-4">
           <div className="text-lg font-medium tracking-tight leading-[55.08px] text-slate-200">
             {plan.scheme}
@@ -84,7 +84,7 @@ const PriceCard = ({ scheme }) => {
               </div>
             ))
           }
-          <div className="flex justify-center mt-auto">
+          <div className="flex justify-center mt-6 lg:mt-auto ">
             <div className="justify-center items-center text-center px-6 py-4 text-base font-semibold leading-6 text-white bg-violet-600 rounded border border-violet-300 border-solid max-md:px-5">
               Start {plan.scheme} Plan
             </div>

@@ -23,7 +23,7 @@ const Debugger = () => {
       {/* <AiDetection/> */}
       {/* <BlogCard title={blogTitle} img={blog1}/> */}
       {/* <Bypass/> */}
-      {/* <FAQ/> */}
+      <FAQ/>
       {/* <FAQ2/> */}
       {/* <FAQ3/> */}
       {/* <BypassFeat/> */}

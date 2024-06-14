@@ -2,7 +2,7 @@ import React from 'react'
 import { ar1, logo, logo2, arrowright, bypassfeat, bypasssoln, check1, check2, checkcircleicon, checkforai, content, ellipse, flag, framein, frameout, gram1, howitworks, msg, path, plus, rectangle, score, spark1, stars5, upload, vector, web, write1, minus } from '../Global/Imports.jsx';
 const FAQ3 = () => {
   return (
-    <div className="flex flex-col mx-10 lg:mx-auto justify-center items-center">
+    <div className="w-[320px] lg:w-full">
       <div className='flex flex-col justify-center items-center w-[33%] lg:w-full max-md:ml-0 max-md:w-full'>
         <div className="shrink-0 mt-20 max-w-full h-px border border-solid bg-slate-600 border-slate-600 w-[878px] max-md:mt-10" />
         <div className="flex gap-5 mt-5 max-w-full text-xl font-medium tracking-normal leading-7 text-slate-200 w-[874px] max-md:flex-wrap">
