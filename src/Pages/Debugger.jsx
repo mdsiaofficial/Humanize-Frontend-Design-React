@@ -8,6 +8,11 @@ import FAQ2 from '../Components/FAQ2';
 import BypassSoln from '../Components/BypassSoln';
 import FAQ from '../Components/FAQ';
 import FAQ3 from '../Components/FAQ3';
+import GotQuestions from '../Components/GotQuestions';
+import CustomerFeedback from '../Components/CustomerFeedback';
+import FlexiblePrice from '../Components/FlexiblePrice';
+import PriceCard from '../Components/PriceCard';
+import Header from '../Components/Header';
 
 const Debugger = () => {
   const blogTitle = `Humanize Blog Central - Your AI Content Hub`;
@@ -18,11 +23,18 @@ const Debugger = () => {
       {/* <AiDetection/> */}
       {/* <BlogCard title={blogTitle} img={blog1}/> */}
       {/* <Bypass/> */}
-      <FAQ/>
-      <FAQ2/>
-      <FAQ3/>
+      {/* <FAQ/> */}
+      {/* <FAQ2/> */}
+      {/* <FAQ3/> */}
       {/* <BypassFeat/> */}
       {/* <BypassSoln/> */}
+
+      {/* <GotQuestions/> */}
+      {/* <CustomerFeedback/> */}
+      {/* <FlexiblePrice/> */}
+      {/* <PriceCard scheme="Basic"/> */}
+      {/* <GotQuestions /> */}
+      {/* <Header title={"Hello hello hello"} text={ "Hello Hello" }/> */}
 
     </div>
   )

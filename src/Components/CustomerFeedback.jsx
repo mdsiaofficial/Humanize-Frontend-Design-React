@@ -5,8 +5,8 @@ const CustomerFeedback = () => {
   return (
     <div>
       <div className="flex justify-center">
-        <div className="px-5 mt-12 w-full max-w-[1319px] max-md:mt-10 max-md:max-w-full">
-          <div className="mt-32 text-4xl font-medium tracking-tight text-center leading-[55.08px] text-slate-50 max-md:mt-10 max-md:max-w-full">
+        <div className="px-5 mt-2 w-full max-w-[1319px] max-md:mt-2 max-md:max-w-full">
+          <div className="mt-16 text-4xl font-medium tracking-tight text-center leading-[55.08px] text-slate-50 max-md:mt-2 max-md:max-w-full">
             Hear from our satisfied customers
           </div>
           <div className="flex gap-5 max-md:flex-col max-md:gap-0">

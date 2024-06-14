@@ -2,8 +2,10 @@ import React from 'react'
 import { Switch } from '@mui/material';
 import { checkcircleicon } from '../Global/Imports';
 import Header from './Header';
+import PriceCard from './PriceCard';
 
 const FlexiblePrice = () => {
+
   const title = `Flexible pricing for every need`;
   const text = `Simple, transparent pricing that grows with you. Try any plan free for 30 days. Save 20% with annual.`;
   return (
@@ -22,6 +24,8 @@ const FlexiblePrice = () => {
       </div>
       <div className="mt-12 w-full max-w-[1097px] max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+          
+          {/* 
           <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow px-6 lg:pt-20 pb-11 mx-auto w-full rounded-2xl border-2 border-solid border-slate-500 text-slate-100 max-md:px-5 max-md:mt-4">
               <div className="text-lg font-medium tracking-tight leading-[55.08px] text-slate-200">
@@ -31,7 +35,7 @@ const FlexiblePrice = () => {
                 <div className="grow text-4xl font-semibold tracking-tight leading-[55.08px]">
                   $9.99 /month
                 </div>
-              
+
               </div>
               <div className="flex gap-2 mt-12 text-base font-medium leading-6 max-md:mt-10">
                 <img
@@ -108,7 +112,7 @@ const FlexiblePrice = () => {
                   <div className="grow text-4xl font-semibold tracking-tight leading-[55.08px]">
                     $29.99 /month
                   </div>
-                  
+
                 </div>
                 <div className="flex gap-2 mt-12 text-base font-medium leading-6 max-md:mt-10">
                   <img
@@ -193,7 +197,7 @@ const FlexiblePrice = () => {
                 <div className="grow text-4xl font-semibold tracking-tight leading-[55.08px]">
                   $59.99 /month
                 </div>
-                
+
               </div>
               <div className="flex gap-2 mt-12 text-base font-medium leading-6 max-md:mt-10">
                 <img
@@ -274,6 +278,17 @@ const FlexiblePrice = () => {
               </div>
             </div>
           </div>
+  */}
+          
+
+
+
+
+
+
+          <PriceCard scheme="Basic"/>
+          <PriceCard scheme="Standard"/>
+          <PriceCard scheme="Premium"/>
         </div>
       </div>
     </div>
