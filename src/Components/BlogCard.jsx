@@ -6,18 +6,18 @@ const BlogCard = ({ title, img }) => {
   return (
 
     <div>
-      <div className="bg-slate-600 text-white w-[427px] h-[567px] rounded-2xl">
+      <div className="bg-slate-600 text-white w-[427px] h-[510px] rounded-2xl">
         <section className='flex justify-center py-4'>
           <img src={img} alt="" className='w-[395px] h-[298px]' />
         </section>
-        <section className=' w-[395px] flex flex-col p-4'>
+        <section className='flex w-[398px] flex-col px-5'>
 
-          <span className='py-2'>June 01, 2024</span>
+          <span className=''>June 01, 2024</span>
 
-          <span className='text-[24px] font-semibold py-2'>{title}</span>
+          <span className='text-[24px] h-[105px] overflow-hidden font-semibold'>{title}</span>
 
           <Link to="/readblog" title={title} img={img}>
-            <button className="flex gap-3 py-2 text-base font-semibold leading-6 text-slate-50">
+            <button className="flex gap-3 py-2 text-base font-semibold leading-6 hover:text-slate-900 text-slate-50">
               <div>Read More</div>
               <img
                 loading="lazy"

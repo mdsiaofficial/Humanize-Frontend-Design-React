@@ -1,5 +1,6 @@
 import { ar1, logo, logo2, arrowright, bypassfeat, bypasssoln, check1, check2, checkcircleicon, checkforai, content, ellipse, flag, framein, frameout, gram1, howitworks, msg, path, plus, rectangle, score, spark1, stars5, upload, vector, web, write1 } from '../Global/Imports.jsx';
 import React from 'react'
+import Detectors from './Detectors.jsx';
 
 const Bypass = () => {
   return (
@@ -9,71 +10,16 @@ const Bypass = () => {
         Bypass all popular ai detectors
       </div>
       <div className="flex justify-center gap-3 px-5 mt-10 text-base font-medium leading-6 whitespace-nowrap text-slate-50 max-md:flex-wrap">
-
-        <div className="flex gap-2 justify-center px-6 py-3 border-2 border-solid bg-slate-900 border-slate-500 rounded-[50px] max-md:px-5">
-          <img
-            loading="lazy"
-            src={check1}
-            className="shrink-0 self-start w-6 aspect-square"
-          />
-          <div>OpenAI</div>
-        </div>
-        <div className="flex gap-2 justify-center px-6 py-3 border-2 border-solid bg-slate-900 border-slate-500 rounded-[50px] max-md:px-5">
-          <img
-            loading="lazy"
-            src={check1}
-            className="shrink-0 self-start w-6 aspect-square"
-          />
-          <div>GPTZero</div>
-        </div>
-        <div className="flex gap-2 justify-center px-6 py-3 border-2 border-solid bg-slate-900 border-slate-500 rounded-[50px] max-md:px-5">
-          <img
-            loading="lazy"
-            src={check1}
-            className="shrink-0 self-start w-6 aspect-square"
-          />
-          <div>CrossPlag</div>
-        </div>
-        <div className="flex gap-2 justify-center px-7 py-3 border-2 border-solid bg-slate-900 border-slate-500 rounded-[50px] max-md:px-5">
-          <img
-            loading="lazy"
-            src={check1}
-            className="shrink-0 self-start w-6 aspect-square"
-          />
-          <div>ContentAtScale</div>
-        </div>
-        <div className="flex gap-2 justify-center px-6 py-3 border-2 border-solid bg-slate-900 border-slate-500 rounded-[50px] max-md:px-5">
-          <img
-            loading="lazy"
-            src={check1}
-            className="shrink-0 self-start w-6 aspect-square"
-          />
-          <div>Sapling</div>
-        </div>
-        <div className="flex gap-2 justify-center px-6 py-3 border-2 border-solid bg-slate-900 border-slate-500 rounded-[50px] max-md:px-5">
-          <img
-            loading="lazy"
-            src={check1}
-            className="shrink-0 self-start w-6 aspect-square"
-          />
-          <div>CopyLeaks</div>
-        </div>
-        <div className="flex gap-2 justify-center px-6 py-3 border-2 border-solid bg-slate-900 border-slate-500 rounded-[50px] max-md:px-5">
-          <img
-            loading="lazy"
-            src={check1}
-            className="shrink-0 self-start w-6 aspect-square"
-          />
-          <div>ZeroGPT</div>
-        </div>
-        <div className="flex gap-2 justify-center px-6 py-3 border-2 border-solid bg-slate-900 border-slate-500 rounded-[50px] max-md:px-5">
-          <img
-            loading="lazy"
-            src={check1}
-            className="shrink-0 self-start w-6 aspect-square"
-          />
-          <div>Turnitin</div>
-        </div>
+        
+        <Detectors title={"OpenAI"}/>
+        <Detectors title={"GPTZero"}/>
+        <Detectors title={"CrossPlag"}/>
+        <Detectors title={"Turnitin"}/>
+        <Detectors title={"ZeroGPT"}/>
+        <Detectors title={"ContentAtScale"}/>
+        <Detectors title={"CopyLeaks"}/>
+        <Detectors title={"Sapling"}/>
+        
       </div>
       {/* bypass end */ }
     </div >

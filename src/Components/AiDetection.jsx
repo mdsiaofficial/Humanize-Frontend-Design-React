@@ -4,10 +4,10 @@ const AiDetection = () => {
   return (
     <div>
       <div className="flex flex-col justify-center items-center">
-        <div className="mt-40 text-3xl md:text-4xl font-medium tracking-tight leading-10 text-center text-slate-50 md:w-[650px] max-md:mt-10 max-md:max-w-full">
+        <div className="mt-10 text-3xl md:text-4xl font-bold tracking-tight leading-10 text-center text-slate-50 md:w-[650px] w-[350px] max-w-[1090px] max-md:max-w-full">
           Say Goodbye to AI Content Detection Woes and Hello to Top Rankings
         </div>
-        <div className="mt-9 w-full max-w-[1090px] max-md:max-w-full">
+        <div className="mt-9 w-[350px] md:w-full max-w-[1090px] max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0">
 
             {/* box img */}
